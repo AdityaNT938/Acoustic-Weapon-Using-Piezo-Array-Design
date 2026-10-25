@@ -66,8 +66,43 @@ The power amplifier increases the signal strength sufficiently to drive the spea
 A MATLAB Simulink model was developed to represent the signal path from source generation to acoustic output. The model consists of a signal generator, gain blocks, delay elements, individual speaker blocks, and a summation block.
 
 Each gain block represents amplification provided to an individual speaker. Delay elements introduce phase differences between speakers. The summation block represents the combination of acoustic waves emitted by all speakers.
+<img width="940" height="580" alt="image" src="https://github.com/user-attachments/assets/6e2d50dd-ed76-4060-88e2-2031fe2eb4b4" />
+
+8. Results and Discussion
+Simulation results confirmed successful operation of all major subsystems. The Colpitts oscillator generated a stable carrier signal. FM modulation and demodulation were verified through waveform analysis.
+ <img width="944" height="418" alt="image" src="https://github.com/user-attachments/assets/020ab2f9-eedb-47bb-91b2-1e5221baafcd" />
+
+
+
+ The recovered audio signal maintained acceptable integrity after transmission.
+
+The speaker-array simulation produced significantly higher output amplitude than a single speaker. A single speaker generated approximately ±20 amplitude units, while the combined array output reached approximately ±105 amplitude units. This increase demonstrates constructive interference and validates the directional sound generation concept.
+  
+
+<img width="940" height="829" alt="image" src="https://github.com/user-attachments/assets/460ad0d8-d438-4a02-ba49-8202d18192a6" />
+
+
+The results indicate that beamforming can substantially improve acoustic intensity in the desired direction while reducing unwanted sound dispersion.
+
+9. Expected Outcomes and Applications
+    
+Expected outcomes include successful wireless transmission of audio signals, demonstration of FM communication principles, validation of speaker-array beamforming, and analysis of directional acoustic propagation.
+
+Potential applications include:
+• Public warning systems
+• Crowd management systems
+• Industrial safety alerts
+• Smart city communication infrastructure
+• Targeted audio delivery systems
+• Educational demonstrations of beamforming and wireless communication
+10. Conclusion
+The Acoustic Noise Weapon project successfully integrates wireless FM communication, analog signal processing, amplification, and directional acoustic output into a single system. Simulation results demonstrate stable signal generation, successful modulation and demodulation, and effective beamforming through a speaker array.
+
+The project establishes a strong foundation for future work involving advanced beamforming algorithms, digital signal processing, smart audio systems, and targeted communication technologies. The work also provides valuable practical experience in communication engineering, analog electronics, acoustics, and system simulation.
+
+
  
-<img width="940" height="580" alt="image" src="https://github.com/user-attachments/assets/ec6eb124-b6d7-45c0-a09e-04fe990538d9" />
+
 
 
 The simulation demonstrates constructive interference where sound waves add together in phase, increasing overall acoustic intensity. This behavior validates the beamforming principle used in the project.
