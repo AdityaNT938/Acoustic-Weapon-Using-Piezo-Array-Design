@@ -17,6 +17,7 @@ To design and simulate a wireless-controlled acoustic system integrating FM tran
 
 Secondary Objectives:
 • Design a pre-amplifier for conditioning low-level audio signals.
+
 • Generate a stable RF carrier using a Colpitts oscillator.
 • Implement FM modulation and demodulation.
 • Establish wireless communication between transmitter and receiver.
