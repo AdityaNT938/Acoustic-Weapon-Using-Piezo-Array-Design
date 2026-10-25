@@ -1,12 +1,14 @@
 # Acoustic-Weapon-Using-Piezo-Array-Design
 A wireless-controlled directional acoustic system combining an FM transceiver, a Class-D power amplifier, and a piezoelectric speaker array for acoustic beamforming. Simulated in LTSpice and MATLAB Simulink.
 
-1. Introduction : 
+1. Introduction :
+   
 The Acoustic Noise Weapon project is a wireless-controlled directional acoustic system designed to demonstrate the principles of sound propagation, wireless communication, amplification, and beamforming. The system combines an FM transmitter–receiver architecture with a high-gain audio amplification stage and a piezoelectric speaker array. Unlike conventional loudspeakers that distribute sound uniformly in all directions, the proposed system concentrates acoustic energy in a desired direction through constructive interference between multiple speaker elements.
 
 The project is intended as an educational and research-oriented platform for studying acoustic beamforming, wireless triggering, analog communication systems, and speaker array behavior. The design emphasizes low cost, simplicity, and safe operation while still demonstrating the underlying engineering concepts.
 
-2. Problem Definition: 
+2. Problem Definition:
+   
 Conventional public-address and warning systems often suffer from poor directionality, causing sound energy to be wasted in unwanted directions. This leads to reduced efficiency and increased disturbance to surrounding areas. There is a growing need for systems capable of directing sound toward a specific region while minimizing sound spread elsewhere.
 
 This project addresses this challenge by combining FM-based wireless communication with a directional speaker array capable of focusing acoustic energy using constructive interference techniques.
@@ -19,13 +21,19 @@ Secondary Objectives:
 • Design a pre-amplifier for conditioning low-level audio signals.
 
 • Generate a stable RF carrier using a Colpitts oscillator.
+
 • Implement FM modulation and demodulation.
+
 • Establish wireless communication between transmitter and receiver.
+
 • Amplify recovered audio signals.
+
 • Demonstrate acoustic beamforming using a piezo speaker array.
+
 • Analyze system performance through simulation.
 
-5. Methodology : 
+5. Methodology :
+6. 
 The methodology consists of several stages. First, an audio signal is generated and conditioned using a pre-amplifier. The signal is then used to modulate a carrier produced by a Colpitts oscillator. The modulated signal is transmitted wirelessly using an FM transmitter.
  <img width="940" height="525" alt="image" src="https://github.com/user-attachments/assets/18e64833-17a3-43fd-b85e-20b7adb462e5" />
 
